@@ -9984,7 +9984,10 @@ venv/Lib/site-packages/pip/_vendor/tenacity/__pycache__/wait.cpython-311.pyc
 venv/Lib/site-packages/pip/_vendor/tomli/__init__.py
 venv/Lib/site-packages/pip/_vendor/tomli/_parser.py
 venv/Lib/site-packages/pip/_vendor/tomli/_re.py
+<<<<<<< HEAD
 venv/Lib/site-packages/pip/_vendor/tomli/_types.py
+=======
+>>>>>>> main
 venv/Lib/site-packages/pip/_vendor/tomli/__pycache__/__init__.cpython-311.pyc
 venv/Lib/site-packages/pip/_vendor/tomli/__pycache__/_parser.cpython-311.pyc
 venv/Lib/site-packages/pip/_vendor/tomli/__pycache__/_re.cpython-311.pyc
@@ -10003,6 +10006,10 @@ venv/Lib/site-packages/six.py
 venv/Lib/site-packages/pip/py.typed
 venv/Lib/site-packages/pip/_vendor/typing_extensions.py
 venv/Lib/site-packages/pip/_vendor/vendor.txt
+<<<<<<< HEAD
+=======
+venv/Lib/site-packages/pip/_vendor/tomli/_types.py
+>>>>>>> main
 venv/Lib/site-packages/pip/_vendor/urllib3/__init__.py
 venv/Lib/site-packages/pip/_vendor/urllib3/_collections.py
 venv/Lib/site-packages/pip/_vendor/urllib3/_version.py
