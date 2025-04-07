@@ -1,0 +1,10 @@
+column,dtype,null_pct,unique_pct,avg_len,label,source_file
+Education,object,0.0,0.0006447453255963894,8.393939393939394,,Employee.csv
+JoiningYear,int64,0.0,0.0015044057597249087,0.0,,Employee.csv
+City,object,0.0,0.0006447453255963894,7.637438211906297,,Employee.csv
+PaymentTier,int64,0.0,0.0006447453255963894,0.0,,Employee.csv
+Age,int64,0.0,0.004298302170642596,0.0,,Employee.csv
+Gender,object,0.0,0.0004298302170642596,4.805931656995487,,Employee.csv
+EverBenched,object,0.0,0.0004298302170642596,2.102729421878358,,Employee.csv
+ExperienceInCurrentDomain,int64,0.0,0.0017193208682570384,0.0,,Employee.csv
+LeaveOrNot,int64,0.0,0.0004298302170642596,0.0,,Employee.csv
