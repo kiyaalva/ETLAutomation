@@ -8,7 +8,9 @@ def extract_features_from_column(series: pd.Series):
         'avg_len': series.astype(str).str.len().mean() if series.dtype == 'object' else 0
     }
 
-def predict_column_transformation(col_series, model):
+def predict_column_transformation(col_series, model, label_encoder):
     features = extract_features_from_column(col_series)
     X_input = pd.DataFrame([features])
-    return model.predict(X_input)[0]
+    pred_encoded = model.predict(X_input)[0]
+    pred_label = label_encoder.inverse_transform([pred_encoded])[0]
+    return pred_label
